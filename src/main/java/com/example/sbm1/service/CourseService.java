@@ -9,5 +9,5 @@ public interface CourseService {
 
     void deleteCourse(Long courseId);
 
-    List<Course> getAllCourses();
+    List<Course> findAllCourses();
 }
